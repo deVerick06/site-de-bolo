@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Casa de Bolo</title>
+</head>
+<body>
+    <section>
+    <header>
+        
+        <div class="logo">
+            <img src="imgs/boloLogo-removebg-preview.png" alt="logo">
+            <h2>Casa de Bolo</h2>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#"><strong>Principal</strong></a>
+                </li>
+                <li>
+                    <a href="#"><strong>Sobre</strong></a>
+                </li>
+                <li>
+                    <a href="#"><strong>Contato</strong></a>
+                </li>
+                <li>
+                    <a href="#"><strong>Duvidas</strong></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="sign-in-btn">
+            <a href="#" class="btn">
+                <strong>Entrar</strong>
+                <span>
+                </span>
+            <span>
+                </span>
+            <span>
+                </span>
+            <span>
+                </span>
+            </a>
+            <div class="icon" onclick="menufun()">
+            <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <div class="grid-two">
+        <div class="col-1">
+            <h3>Casa de Bolos.</h3>
+            <h1>
+                Bateu a fome, <br> e ta com vontade <br> de comer um bolo? <span><i class="fa-solid fa-arrow-trend-up"></i></span>
+            </h1>
+            <p>
+                Conheca a Casa de Bolos, a fabricante numero 1 de bolos, com diversos sabores, ingredientes naturais e de qualidades.
+            </p>
+            <div class="btns">
+                <a href="catalagos/index.html" class="btn-1">Comprar</a>
+                <a href="#" class="btn-2">Saiba mais</a>
+            </div>
+        </div>
+        <div class="col-2">
+            <img src="imagens/ft1att.png" alt="">
+        </div>
+    </div>
+</section>
+<script>
+    let icon=document.querySelector(".icon");
+    let menu=document.querySelector("ul");
+    function menufun(){
+    if(menu.style.left=="-100%"){
+        menu.style.left="0%"
+    }else{
+        menu.style.left="-100%"
+    }
+    }
+</script>
+</body>
+</html>
