@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <header>
+            
+            <div class="logo">
+                <img src="../imgs/boloLogo-removebg-preview.png" alt="logo">
+                <h2>Casa de Bolo</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html"><strong>Principal</strong></a>
+                    </li>
+                    <li>
+                        <a href="#"><strong>Sobre</strong></a>
+                    </li>
+                    <li>
+                        <a href="#"><strong>Contato</strong></a>
+                    </li>
+                    <li>
+                        <a href="#"><strong>Duvidas</strong></a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sign-in-btn">
+                <a href="#" class="btn">
+                    <strong>Entrar</strong>
+                    <span>
+                    </span>
+                <span>
+                    </span>
+                <span>
+                    </span>
+                <span>
+                    </span>
+                </a>
+                <div class="icon" onclick="menufun()">
+                <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+        
+        <section class="catalog">
+            <div class="venda">
+                <img src="../imgs/choco-removebg-preview.png" alt="">
+                <h3>Bolo de Chocolate</h3>
+                <button class="btn-venda" onclick="alerta()"><a>Comprar</a></button>
+            </div>
+            <div class="venda">
+                <img src="../imgs/moran-removebg-preview.png" alt="">
+                <h3>Bolo de Morango</h3>
+                <button class="btn-venda" onclick="alerta()"><a>Comprar</a></button>
+            </div>
+            <div class="venda">
+                <img src="../imgs/prest-removebg-preview.png" alt="">
+                <h3>Bolo de Prestigio</h3>
+                <button class="btn-venda" onclick="alerta()"><a>Comprar</a></button>
+            </div>
+        </section>
+        <script>
+            function alerta () {
+                alert("Bolo comprado!!!")
+            }
+        </script>
+</body>
+</html>

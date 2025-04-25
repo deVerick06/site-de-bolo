@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgb(223, 222, 222);
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    Overflow:hidden;
+    Position:relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    height: 6rem;
+    background-color: rgb(6, 122, 255);
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo h2 {
+    font-size: 2.6rem;
+}
+
+header .logo img {
+    width: 4rem;
+    height: 4rem;
+}
+
+h2{
+    position: relative;
+    left: 2px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style-type: none;
+    margin-right: 3rem;
+}
+
+nav ul li {
+    font-size: 1.5rem;
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+header .sign-in-btn .btn {
+    font-size: 1.5rem;
+    border: 2px solid rgb(0, 0, 0);
+    color:black;
+    border-radius: 1rem;
+    padding: 5px 20px;
+    overflow: hidden;
+    transition: .5s;
+}
+header .sign-in-btn{
+    Display:flex;
+    Align-items:center;
+}
+.sign-in-btn .fa-bars{
+    box-shadow: 0 0 5px rgb(144, 43, 175), 0 0 25px rgb(144, 43, 175), 0 0 50px rgb(144, 43, 175), 0 0 100px rgb(144, 43, 175); 
+    font-size: 3rem;
+    margin-left:3rem;
+    
+}
+.sign-in-btn a:hover { 
+    background: rgb(144, 43, 175);
+    color: #fff; border-radius: 5px;
+    box-shadow: 0 0 5px rgb(246, 246, 247), 0 0 25px rgb(255, 255, 255), 0 0 50px rgb(255, 255, 255), 0 0 100px rgb(255, 253, 255); 
+} 
+
+
+.catalog {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    background-color: rgb(187, 185, 187);
+}
+
+
+
+.venda {
+    text-align: center;
+    margin: 0 2rem;
+    max-width: 300px;
+    border: 2px solid black;
+}
+.venda img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+    background-color: #fff;
+
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.btn-venda{
+    background-color: rgb(63, 243, 63);
+    border-radius: 12%;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
